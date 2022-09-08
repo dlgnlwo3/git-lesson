@@ -8,6 +8,7 @@ import time
 def copy_sheet(old_file, new_file):
 
     try:
+        print(f"메인 브랜치에서 수정함")
         excel = win32com.client.Dispatch("Excel.Application")
         excel.Visible = True
 
