@@ -27,7 +27,7 @@ def copy_sheet(old_file, new_file):
         wb1.SaveAs(new_file, FileFormat=51)
 
     except Exception as e:
-        print(e)
+        print("asdfsadfasdf")
 
     finally:
         excel.Quit()
