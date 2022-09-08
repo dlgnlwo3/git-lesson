@@ -8,7 +8,7 @@ import time
 def copy_sheet(old_file, new_file):
 
     try:
-        print(f"메인 브랜치에서 수정함")
+        print(f"새 브랜치에서 수정함")
         excel = win32com.client.Dispatch("Excel.Application")
         excel.Visible = True
 
@@ -28,7 +28,7 @@ def copy_sheet(old_file, new_file):
         wb1.SaveAs(new_file, FileFormat=51)
 
     except Exception as e:
-        print(e)
+        print("asdfsadfasdf")
 
     finally:
         excel.Quit()
